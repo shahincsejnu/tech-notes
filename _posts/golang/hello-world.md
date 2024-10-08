@@ -1,4 +1,10 @@
-# Hello World in Golang
+---
+layout: post
+title: "Hello World in Golang"
+categories: golang
+tags: [Go, Introduction]
+permalink: /golang/hello-world/
+---
 
 In this post, we will explore how to write a simple "Hello, World!" program in Golang.
 

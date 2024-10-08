@@ -1,0 +1,46 @@
+theme: minima
+title: "Tech Notes"
+description: "For keeping notes on tech stuffs"
+url: "https://shahincsejnu.github.io/tech-notes"
+baseurl: ""
+
+permalink: "/:title/"
+date_format: "%b %-d, %Y"
+timezone: UTC
+
+future: false
+highlighter: rouge
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - _site
+  - .bundle
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"

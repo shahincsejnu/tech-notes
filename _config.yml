@@ -4,16 +4,6 @@ description: "For keeping notes on tech stuffs"
 url: "https://shahincsejnu.github.io/tech-notes"
 baseurl: ""
 
-permalink: /:categories/:title/
-date_format: "%b %-d, %Y"
-timezone: UTC
-
-future: false
-highlighter: rouge
-markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -28,14 +18,3 @@ exclude:
   - .jekyll-metadata
   - _site
   - .bundle
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "post"

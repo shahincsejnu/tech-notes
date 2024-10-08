@@ -4,7 +4,7 @@ description: "For keeping notes on tech stuffs"
 url: "https://shahincsejnu.github.io/tech-notes"
 baseurl: ""
 
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 date_format: "%b %-d, %Y"
 timezone: UTC
 
@@ -13,11 +13,6 @@ highlighter: rouge
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
-
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:title/
 
 exclude:
   - Gemfile
